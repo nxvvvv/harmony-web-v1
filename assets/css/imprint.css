@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Whitney;
+    src: url(../fonts/WhitneyHTF-Bold.otf);
+}
+
+@font-face {
+    font-family: WhitneyLight;
+    src: url(../fonts/WhitneyHTF-Light.otf);
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue-Roman.otf);
+}
+
+body {
+    background: white;
+    font-family: WhitneyLight, HelveticaNeue, Arial, sans-serif;
+    color: #23272A;
+    font-size: 20px;
+    margin: 0;
+    padding: 50px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Whitney, HelveticaNeue, Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    letter-spacing: 3px;
+}
+
+a, p, li {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+a {
+    color: #7289DA;
+    text-decoration: none;
+}
